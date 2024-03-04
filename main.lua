@@ -83,28 +83,34 @@ function love.load()
 		-- },
 
 		{
-			position = vec3(-0.2, 0.4, 0.8),
-			orientation = quat.fromAxisAngle(vec3(0.1, 0.9, 0.3)),
-			scale = 0.9,
-			mesh = teapotMesh
+			position = vec3(-0.1, 0.0, 0.7),
+			orientation = quat.fromAxisAngle(vec3(0.3, 0.9, 0.3)),
+			scale = 0.2,
+			mesh = cubeMesh
 		},
 		{
-			position = vec3(0.8, -0.3, 1.5),
-			orientation = quat.fromAxisAngle(vec3(1)),
+			position = vec3(0.4, -0.3, 0.75),
+			orientation = quat.fromAxisAngle(vec3(0.25)),
 			scale = 0.5,
 			mesh = teapotMesh
 		},
 		{
-			position = vec3(1, 0.5, 0.75),
-			orientation = quat.fromAxisAngle(vec3(-1)),
-			scale = 0.6,
+			position = vec3(-0.2, -0.3, 1.75),
+			orientation = quat.fromAxisAngle(vec3(0.25)),
+			scale = 0.5,
+			mesh = teapotMesh
+		},
+		{
+			position = vec3(-0.8, 0.5, 1.25),
+			orientation = quat.fromAxisAngle(vec3(4, -3, -1)),
+			scale = 0.5,
 			mesh = teapotMesh
 		},
 
 		{
 			position = vec3(0.5, -0.3, -1.5),
 			orientation = quat.fromAxisAngle(vec3(0.5, 1, 1)),
-			scale = 0.6,
+			scale = 0.5,
 			mesh = teapotMesh
 		}
 	}
