@@ -37,7 +37,7 @@ local function lerp(a, b, i)
 end
 
 function love.load()
-	overviewNear, overviewFar = 0.01, 1000
+	overviewNear, overviewFar = 0.01, 100000
 	overviewCamera = {
 		verticalFov = math.rad(70),
 		position = vec3(-3, 0, -2),
