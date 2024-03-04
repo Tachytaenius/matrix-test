@@ -309,9 +309,9 @@ function love.draw()
 	love.graphics.print(
 		"WASDQE: Translate\n" ..
 		"IJKLUO: Rotate\n" ..
-		"Space: Animate\n" ..
-		"Lshift: move fast\n" ..
-		"Lctrl: control green matrix\n\n" ..
+		"Space (hold): Animate\n" ..
+		"Lshift: Move fast\n" ..
+		"Lctrl: Control green matrix\n\n" ..
 		"Lerp: " .. math.floor(lerpI * 100 + 0.5) .. "%\n"
 	)
 end
